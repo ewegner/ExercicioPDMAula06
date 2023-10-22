@@ -10,26 +10,35 @@
     <TextView
         android:id="@+id/mediaTemperatura"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"/>
 
     <TextView
         android:id="@+id/mediaUmidade"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"/>
 
     <TextView
         android:id="@+id/mediaOrvalho"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"/>
 
     <TextView
         android:id="@+id/mediaPressao"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"/>
 
     <ListView
         android:id="@+id/todasMedicoes"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>

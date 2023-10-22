@@ -69,6 +69,7 @@ public class ConsultaCep extends AppCompatActivity {
                     }
 
                     urlConnection.disconnect();
+                    Log.d("ConsultaCepResult", builder.toString());
                     return builder.toString();
                 }
             } catch (Exception ex) {
